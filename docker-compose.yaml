@@ -1,0 +1,7 @@
+services:
+  foundation-server:
+    build: .
+    volumes:
+      - "./server:/app"
+    ports:
+      - "25565:25565"
