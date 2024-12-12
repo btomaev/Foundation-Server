@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY server /app
 
-CMD ["java", "-jar", "fabric-server-mc.1.20.1-loader.0.16.9-launcher.1.0.1.jar"]
+CMD ["java", "-jar", "fabric-server-mc.1.20.1-loader.0.16.9-launcher.1.0.1.jar", "-Xmx2048m"]
